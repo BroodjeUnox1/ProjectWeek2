@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "space cake",
+"productVersion": "0.1",
+"dataUrl": "Nieuwe map (2).data.unityweb",
+"wasmCodeUrl": "Nieuwe map (2).wasm.code.unityweb",
+"wasmFrameworkUrl": "Nieuwe map (2).wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.11f1"
+}

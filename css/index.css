@@ -1,0 +1,131 @@
+/*basic body settings icluding the cursor*/
+html {
+    height: 100%;
+    min-height: 100vh;
+}
+body {
+    overflow-x: hidden;
+    cursor: url(https://i.imgur.com/CV8kdAh.png), pointer!important;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh;
+}
+
+/*make it full height*/
+canvas {
+    position: absolute;
+    top: 0%;
+    z-index: -10;
+    min-height: 100vh;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0%;
+  z-index: 0;
+  width: 100%;
+  background-color: #000000;
+}
+
+.card {
+    z-index: 100;
+    width: 90vw; margin-top: 20px;
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome and Opera */
+}
+
+/*css grid containter for the sign up form*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    ". . . . . ."
+    ". . login-form login-form . ."
+    ". . login-form login-form . ."
+    ". . login-form login-form . ."
+    ". . . . . .";
+}
+
+/*initializing the grid*/
+.login-form { 
+    grid-area: login-form;
+    padding-top: 7px;
+    border-radius: 20px; 
+    background: rgba(31,27,30,0.9444152661064426);
+}
+
+/*custom styling for the inputs and buttons*/
+.formInput, .formInput:hover, .formBtn.formBtn:hover, .formBtn, {
+    border-radius: 15px;
+    overflow-x: hidden;
+    cursor: url(https://i.imgur.com/CV8kdAh.png), pointer;
+}
+
+/*linear gradient for this button*/
+.formBtn {
+    background: rgb(24,0,41);
+    background: linear-gradient(135deg, rgba(24,0,41,0.8) 0%, rgba(78,0,66,0.7) 100%);
+    opacity: 0.7;
+    font-weight: 700;
+    font-size: 110%;
+    font-family: 'Roboto', sans-serif;
+}
+
+div label {
+    font-weight: 700;
+    font-size: 110%;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    font-weight: 700;
+    font-size: 110%;
+    font-family: 'Roboto', sans-serif;
+}
+li a {
+    margin: 2px;
+}
+
+li a:hover {
+    border: 1px solid #666;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.card-title {
+    border-bottom: 1px solid #dee0e4;
+    font-size: 180%;
+}
+
+.homeNav {
+    margin-top: 76px;
+    min-height: 92vh;
+
+}
+
+.homeNavItem {
+    margin: 14px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.homeContent:not(.homeContent .classVideo) {
+    opacity: 0.8;
+}
+
+#canvas {
+    height: 500px;
+}
